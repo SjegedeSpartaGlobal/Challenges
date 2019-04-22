@@ -5,7 +5,7 @@ import java.sql.*;
 public class DAO {
     private final String QUERY = "select e.first_name , e.salary from employees e where e.employee_id = ?";
     private final String QUERY_ID = "select e.last_name, e.salary from employees e where e.salary > ?";
-    private final String MY_SQL = "jdbc:mysql://localhost:3306/hr?user=root&password=1992Megamind&useSSL=false";
+    private final String MY_SQL = "jdbc:mysql://localhost:3306/hr?user=root&password=dude&useSSL=false";
     private Connection connection;
 
     public void basicSQLQuery(String id) {
